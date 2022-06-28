@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import bootstrap from 'bootstrap/dist/css/bootstrap.min.css'
-import hospital1 from 'C:/Users/franc/OneDrive/Escritorio/Sistemas Distribuidos/Proyecto Final/farmacia/src/images/hospital1.jpg'
+import hospital1 from './hospital1.jpg'
 
 const Navbar = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import bootstrap from 'bootstrap'
-import hospital2 from 'C:/Users/franc/OneDrive/Escritorio/Sistemas Distribuidos/Proyecto Final/farmacia/src/images/hospital2.png'
+import hospital2 from './hospital2.png'
 
 
 const inicio = () => {
