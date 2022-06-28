@@ -7,7 +7,7 @@ const inicio = () => {
   return (
     <div className='container'>
       <img src={hospital2} alt="" height='100%' width='30%'/>
-      <h4 className='fw-bold text-center'> CENTRO DE DISTRUBICION DEL HOSPITAL Y FARMACIA "ERIADA"</h4>
+      <h4 className='fw-bold text-center'> CENTRO DE DISTRUBICION DEL HOSPITAL Y FARMACIA "VALLE DEL CURADO"</h4>
 
     </div>
   )

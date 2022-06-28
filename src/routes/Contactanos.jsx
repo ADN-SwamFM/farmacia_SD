@@ -7,7 +7,7 @@ const Contactanos = () => {
         <h2>Acerca de nosotros</h2>
 
         
-          <p className='fw-bold'>¡Bienvenido! al portal electrónico del hospital privado ERIADA. </p>
+          <p className='fw-bold'>¡Bienvenido! al portal electrónico del hospital privado Valle del curado. </p>
           <p className='text-success fst-italic'>"Por una vida prospera y saludable".</p>
           <p>En este espacio encontrarás la información más relevante de esta importante institución médica y farmaceutica.</p>       
           <ul>
