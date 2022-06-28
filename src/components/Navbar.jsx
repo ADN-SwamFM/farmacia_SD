@@ -1,51 +1,32 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import bootstrap from 'bootstrap/dist/css/bootstrap.min.css'
+import hospital1 from 'C:/Users/franc/OneDrive/Escritorio/Sistemas Distribuidos/Proyecto Final/farmacia/src/images/hospital1.jpg'
+import medicamentos from 'C:/Users/franc/OneDrive/Escritorio/Sistemas Distribuidos/Proyecto Final/farmacia/src/images/medicamentos.jpg'
+
 
 const Navbar = () => {
   return (
-    <nav className='navbar navbar-expand-lg bg-light'>
+    <nav className='navbar navbar-expand-lg bg-primary'>
         <div className="container-fluid">
-        {/*<img src={logoTesji} alt="" width="180" height="150"/>*/}
-        <NavLink to ='/' className='navbar-brand'>
+        <img src={hospital1} alt="" width="180" height="140"/>
+        <NavLink to ='/' className='navbar-brand btn btn-outline-warning'>
             Inicio
         </NavLink>
-        <NavLink to ='/carreras' className='navbar-brand'>
-            <div className="dropdown">
-            <button className="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                Carreras
-            </button>
-            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a className="dropdown-item" href="#">Ing. Sistemas</a></li>
-            <li><a className="dropdown-item" href="#">Ing. Industrial</a></li>
-            <li><a className="dropdown-item" href="#">Ing. Civil</a></li>
-            <li><a className="dropdown-item" href="#">Lic. Administración</a></li>
-            </ul>
-        </div>
+        <NavLink to ='/carreras' className='navbar-brand btn btn-outline-warning'>
+            Carreras
         </NavLink>
-        <NavLink to ='/talleres' className="navbar-brand">
-        <div class="dropdown">
-            <button className="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                Talleres
-            </button>
-            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a className="dropdown-item" href="#">Futbol</a></li>
-            <li><a className="dropdown-item" href="#">Basketball</a></li>
-            <li><a className="dropdown-item" href="#">Musica</a></li>
-            <li><a className="dropdown-item" href="#">Danza</a></li>
-            </ul>
-        </div>    
+        <NavLink to ='/talleres' className="navbar-brand btn btn-outline-warning">
+            Talleres    
         </NavLink>
         
-        <NavLink to ='/vision' className="navbar-brand">
-            Vision
+        <NavLink to ='/vision' className="navbar-brand btn btn-outline-warning">
+            Comprar Medicamento
         </NavLink>
-        
-       
-        <NavLink to ='/contactanos' className='navbar-brand'>
+        <NavLink to ='/contactanos' className='navbar-brand btn btn-outline-warning'>
             Contáctanos
         </NavLink>
-        {/*<img src={logoTecNM} alt="" width="280" height="150"/>*/}
+        <img src={medicamentos} alt="" width="280" height="140"/>
         </div>
     </nav>
   )
