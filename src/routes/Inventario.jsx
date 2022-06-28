@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Carreras = (props) => {
+const Inventario = (props) => {
   return (
     <div className='container'>
         <h2>Carrera: Ing Sistemas Computacionales</h2>
@@ -19,4 +19,4 @@ const Carreras = (props) => {
   )
 }
 
-export default Carreras
+export default Inventario
