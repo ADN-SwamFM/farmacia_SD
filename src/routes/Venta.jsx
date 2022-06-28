@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Talleres = () => {
+const Venta = () => {
   return (
     <div className='container'>
         <h5>Futbol</h5>
@@ -19,4 +19,4 @@ const Talleres = () => {
   )
 }
 
-export default Talleres
+export default Venta

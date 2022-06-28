@@ -11,14 +11,14 @@ const Navbar = () => {
         <NavLink to ='/' className='navbar-brand btn btn-outline-warning'>
             Inicio
         </NavLink>
-        <NavLink to ='/InventarioMedicamento' className='navbar-brand btn btn-outline-warning'>
+        <NavLink to ='/Inventario' className='navbar-brand btn btn-outline-warning'>
             Inventario de Medicamento
         </NavLink>
-        <NavLink to ='/talleres' className="navbar-brand btn btn-outline-warning">
+        <NavLink to ='/Venta' className="navbar-brand btn btn-outline-warning">
             Venta de Medicamento
         </NavLink>
         
-        <NavLink to ='/vision' className="navbar-brand btn btn-outline-warning">
+        <NavLink to ='/Compra' className="navbar-brand btn btn-outline-warning">
             Comprar Medicamento
         </NavLink>
         <NavLink to ='/contactanos' className='navbar-brand btn btn-outline-warning'>

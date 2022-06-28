@@ -7,8 +7,8 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import Inicio from './routes/Inicio'
 import Inventario from './routes/Inventario'
 import Contactanos from './routes/Contactanos'
-import Talleres from './routes/Talleres'
-import Vision from './routes/Vision'
+import Venta from './routes/Venta'
+import Compra from './routes/Compra'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,8 +17,8 @@ root.render(
   <Route path='/' element={<App />}>
       <Route index element={<Inicio />}/>
       <Route path='Inventario' element={<Inventario />}/>
-      <Route path='Talleres' element={<Talleres />}/>
-      <Route path='Vision' element={<Vision />}/>
+      <Route path='Venta' element={<Venta />}/>
+      <Route path='Compra' element={<Compra />}/>
       <Route path='Contactanos' element={<Contactanos />}/>
     </Route>
   </Routes>

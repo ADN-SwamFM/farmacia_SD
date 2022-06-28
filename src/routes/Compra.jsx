@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Vision = () => {
+const Compra = () => {
   return (
     <div className='container'>
         <h2 className='text-primary'>Misión, Visión, Objetivos, Valores, Principios y Política Integral</h2>
@@ -59,4 +59,4 @@ const Vision = () => {
   )
 }
 
-export default Vision
+export default Compra
